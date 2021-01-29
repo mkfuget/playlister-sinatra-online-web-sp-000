@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <% if flash.has?(:message) %>
   <%= flash[:message] %>
 <% end %>
@@ -11,3 +12,8 @@
     <li><a href = <%="/genres/#{genre.slug}"%>><%=genre.name%></a></li>
   <%end%>
 </ul>
+=======
+<h2>Song: <%=@song.name%></h2>
+<h3>Artist: <%=@song.artist%></h3>
+<h3>Genre: <%=@song.genre%></h3>
+>>>>>>> a4c6adf32788da4b66ab0b0081f1eb70a256a360
